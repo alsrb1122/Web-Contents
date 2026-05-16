@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html>
+    <head><meta charset=UTF-8">
+        
+        <title>
+        자기 소개 웹 페이지 작성   
+        </title>
+        <link href="https://fonts.googleapis.com/css2?family=Nanum+Pen+Script&display=swap" rel="stylesheet">
+        <style>
+            body{
+                background-color: aliceblue;
+            }
+            h1{
+                color: brown;
+                text-align: center;
+            }
+            .border{    
+                border: 1px dotted;
+                text-indent: 1em;
+            }
+            h2{
+                color: blue;
+                text-shadow: 0px 0px 2px blue;
+            }
+            p{
+                font-family: 'Nanum Pen Script', cursive;
+                font-size: 1em;
+                text-indent: 1em;
+            }
+            #itrt{
+                font-family: 'Nanum Pen Script', cursive;
+                text-indent: 1em;
+            }
+            table{
+                border-collapse: collapse;
+                text-align: center;
+            }
+            #thead{
+                background-color: antiquewhite;
+            }
+            #num{
+                background-color: burlywood;
+            }
+            #a{
+                background-color: blanchedalmond;
+            }
+            #b{
+                background-color: aqua;
+            }
+            #c{
+                background-color: brown;
+            }
+            #d{
+                background-color: darkcyan;
+            }
+            #e{
+                background-color: gray;
+            }
+            header{
+                border-bottom: 1px solid;
+            }
+            footer{
+                font-family: 'Nanum Pen Script', cursive;
+                background:orange;
+                padding: 10px;
+                border-radius: 50px;
+                text-indent: 1em;
+            }
+            a{
+                text-decoration: none;
+            }
+        </style>
+    </head>
+    <body>
+        <header>
+            <h1>About me</h1>
+            <p>
+            안녕하세요? 제 이름은 송민규입니다. 올해 대학교를 입학한 새내기입니다.<br>
+            다양한 관심분야와 취미 활동을 하고 있습니다. 즐거운 하루들 되세요 ~<br>
+            </p>
+        </header>
+        <nav>
+            <h2>목차</h2>
+            <ul class="border">
+                <li><a href="#interest">관심분야</a></li>
+                <li><a href="#hobby activity">취미 활동</a></li>
+                <li><a href="#schedule">강의시간표</a></li>
+            </ul>
+            <br><br>
+        </nav>
+        <section>
+        <article id="interest">
+            <h2>관심분야</h2>
+            <hr>
+            <ul id="itrt">
+                <li>요리(Cook)</li>
+                <ul>
+                    <li>한식(Korean Food)</li>
+                    <li>중식(Chinese Food)</li>
+                    <li>양식(Western Food)</li>
+                    <li>일식(Japanese Food)</li>
+                </ul>
+            </ul>
+            <ul id="itrt">
+                <li>고기 작업(Meat Working)</li>
+                <ul>
+                    <li>돼지고기 작업(Pork Working)</li>
+                    <li>소고기 작업(Beef Working)</li>
+                    <li>닭고기 작업(Chicken Meat Working)</li>
+                </ul>
+            </ul>
+            <ul id="itrt">
+                <li>운동(Exercise)</li>
+                <ul>
+                    <li>농구(Basketball)</li>
+                    <li>헬스(Health)</li>
+                    <li>배구(Volleyball)</li>
+                </ul>
+            </ul>
+        </article>
+        <article id="hobby activity">
+            <h2>취미 활동</h2>
+            <hr>
+            <table border="1">
+                <tbody>
+                    <tr>
+                        <td><img src="./internet contents work_files/health.png" width="200" height="200"></td>
+                        <td><img src="./internet contents work_files/study.png" width="200" height="200"></td>
+                        <td><img src="./internet contents work_files/cook.png" width="200" height="200"></td>
+                    </tr>
+                </tbody>
+
+                <tfoot>
+                    <tr>
+                        <td>운동</td>
+                        <td>공부</td>
+                        <td>요리</td>   
+                    </tr>
+                </tfoot>
+            </table>
+        </article>
+
+        <article id="schedule">
+            <h2>강의 시간표(2026년 1학기)</h2>
+            <hr>
+            <table border="1">
+                <thead>
+                    <tr id="thead">
+                        <td><b>구분</b></td>
+                        <td><b>월</b></td>
+                        <td><b>화</b></td>
+                        <td><b>수</b></td>
+                        <td><b>목</b></td>
+                        <td><b>금</b></td>
+                    </tr>
+                </thead>
+
+                <tbody>
+                    <tr>
+                        <td id="num">09</td>
+                        <td></td>
+                        <td><pre>            </pre></td>
+                        <td></td>
+                        <td></td>
+                        <td><pre>            </pre></td>
+                    </tr>
+
+                    <tr>
+                        <td id="num">10</td>
+                        <td></td>
+                        <td></td>
+                        <td rowspan="3" id="a">인터넷콘텐츠<br>(공603)</td>
+                        <td rowspan="3" id="b">컴퓨터과학개론<br>(공608)</td>
+                        <td id="c">인성채플<br>(공B101)</td>
+                    </tr>
+
+                    <tr>
+                        <td id="num">11</td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                    </tr>
+
+                    <tr>
+                        <td id="num">12</td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                    </tr>
+
+                    <tr>
+                        <td id="num">1</td>
+                        <td></td>
+                        <td></td>
+                        <td rowspan="2" id="d">SW개발문제<br>해결능력<br>(공608)</td>
+                        <td></td>
+                        <td></td>
+                    </tr>
+
+                    <tr>
+                        <td id="num">2</td>
+                        <td rowspan="3" id="e">프로그래밍<br>언어실습I<br>(공603)</td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                    </tr>
+
+                    <tr>
+                        <td id="num">3</td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                    </tr>
+
+                    <tr>
+                        <td id="num">4</td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                    </tr>
+                </tbody>
+             </table>
+        </article>
+        </section>
+        <footer>
+            <a href="survey4.html">설문조사</a><br><br>
+            Copyright 2026 by MYONGJI COLLEGE
+        </footer>
+    </body>
+</html>
